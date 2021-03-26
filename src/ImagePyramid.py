@@ -98,7 +98,7 @@ def main():
     bicubic_kernel = 1 / 16 * np.array([-1, 0, 5, 8, 5, 0, -1])
     windowed_sinc_kernel = np.array([0.0, -0.0153, 0.0, 0.2684, 0.4939, 0.2684, 0.0, -0.0153, 0.0])
 
-    dir = "C:/Users/scday/Documents/coding/ComputerVision/image-blending/"
+    dir = "ComputerVision/image-blending/"
     apple = dir + "apple.jpg"
     orange = dir + "orange.jpg"
 #    mask = dir + "vertical-mask.jpg"

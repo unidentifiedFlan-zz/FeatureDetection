@@ -76,7 +76,7 @@ def plot_matches(original_image, original_features, image, matches):
             break
 
 def main_feature_tracking():
-    path = "C:/Users/scday/Documents/coding/ComputerVision/videoResources/headtracker_sequences/seq_villains1/"
+    path = "ComputerVision/videoResources/headtracker_sequences/seq_villains1/"
     plt.rc('axes', prop_cycle=(cycler('color', ['r', 'g', 'b'])))
 
     padding = 50
@@ -115,7 +115,7 @@ def prepare_image(image, padding, translation):
     return GlobalTransformations.translate(padded_array, translation)
 
 def main_feature_matching():
-    path = "C:/Users/scday/Documents/coding/ComputerVision/FeatureDetection/"
+    path = "ComputerVision/FeatureDetection/"
     files = ["mountain1.png", "mountain2.png"]
     translations = [[0,0], [0, 0]]
     padding = 50
